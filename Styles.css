@@ -1,0 +1,136 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 24px;
+  color: rgb(96, 99, 101);
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+.imagen_principal{
+  height: 900px;
+  background-image: url(/Img/2058239.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Name{
+  padding-top: 300px;
+  font-size: 250px;
+  color: rgb(255, 255, 255);
+  border-color: none;
+  text-align: center;
+
+   }
+   figure {
+    max-width: 500px;
+    margin: auto;
+    }
+    figure img{
+    width: 100%;
+    height: 500px;
+   object-fit: cover;
+    }
+/* Seccion de fiesta*/
+.Ven_celebrar{
+  display: flex;
+  color: white;
+  max-height: 1000px;
+  background: linear-gradient(to right, #000000, grey );
+}
+.Ven_celebrar figure img{
+  object-fit: cover;
+  border-radius: 20px;
+}
+.Img_fiesta{
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.Cumpleanos{
+  text-align: center;
+  max-width: 600px;
+  margin-right: 300px;
+  margin-top: 50px;
+}
+.Cumpleanos h1{
+  color: #F2DA91;
+  line-height: 1.5;
+  font-size: 80px;
+}
+
+
+.Cumpleanos img{
+  max-width: 300px;
+}
+.Cumpleanos img:hover{
+  transform: rotate(360deg); /* Giro suave de 10 grados */
+  transition: transform 1s ease; /* Transición suave durante 0.3 segundos */
+  filter: hue-rotate(10deg); /* Cambio de color al pasar el mouse */
+}
+.pastelito{
+  font-size: 200px;
+  color: #def205;
+}
+.Lestras_22{
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  line-height: 1.5;
+}
+.titulo1{
+  padding-left: 550px;
+  height: 500px;
+}
+.degradado {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #000000,  #F2DA91);
+}
+.espacio{
+  padding-left: 60px;
+}
+.Tarjetas{
+  margin-left: 150px;
+  display: flex;
+}
+.Tarjetas_tarot img{
+  width: 400px;
+  height: 750px;
+  object-fit: cover;
+}
+.hora{
+  margin-top: 50px;
+  margin-left: 900px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: rgb(87, 83, 83);
+  width: 300px;
+  height: 100px;
+ }
+ .titulo2{
+  margin-top: -5%;
+  margin-left: 800px;
+  color: #F2DA91;
+  line-height: 1.5;
+  font-size: 80px;
+}
+.titulo2 iframe{
+  border-radius: 2%;
+}
+.espacio2{
+  padding-left: 40px;
+}
+.Confirmar{
+  text-decoration: none;
+  color: white;
+  background-color: #626a10;
+  border-radius: 10%;
+  margin-left: -100px;
+}
+
