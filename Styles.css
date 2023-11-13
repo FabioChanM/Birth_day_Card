@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+
 body{
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -12,6 +13,9 @@ body{
 .ancho{
   max-width: 1200px;
   margin: auto;
+}
+.espacio{
+  margin-left: 5%;
 }
 .imagen_principal{
   height: 900px;
@@ -63,8 +67,6 @@ body{
   line-height: 1.5;
   font-size: 80px;
 }
-
-
 .Cumpleanos img{
   max-width: 300px;
 }
@@ -92,11 +94,8 @@ body{
   height: 100%;
   background: linear-gradient(to right, #000000,  #F2DA91);
 }
-.espacio{
-  padding-left: 60px;
-}
 .Tarjetas{
-  margin-left: 150px;
+  align-items: center;
   display: flex;
 }
 .Tarjetas_tarot img{
@@ -104,27 +103,32 @@ body{
   height: 750px;
   object-fit: cover;
 }
+.Tarjetas_tarot img:hover{
+  transform: scale(1.2);
+}
 .hora{
+  border-radius: 10%;
+  margin-left: 200px;
   margin-top: 50px;
-  margin-left: 900px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: rgb(87, 83, 83);
-  width: 300px;
-  height: 100px;
+  margin-left: 40%;
+  width: 20%;
+  height: 200px;
  }
  .titulo2{
+  text-align: center;
   margin-top: -5%;
-  margin-left: 800px;
   color: #F2DA91;
   line-height: 1.5;
   font-size: 80px;
 }
+.titulo2 h1{
+  text-align: center;
+}
 .titulo2 iframe{
   border-radius: 2%;
-}
-.espacio2{
-  padding-left: 40px;
 }
 .Confirmar{
   text-decoration: none;
@@ -133,4 +137,152 @@ body{
   border-radius: 10%;
   margin-left: -100px;
 }
+.Tarjetas2{
+  display: none;
+}
 
+@media screen and (max-width: 820px){ 
+  .imagen_principal{
+    max-height: 900px;
+    max-width: 73.2%;
+    background-image: url(Img/Imagen_inicio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .Name{
+    padding-top: 220px;
+    font-size: 75px;
+     }
+     figure {
+      max-width: 500px;
+      margin: auto;
+      }
+      figure img{
+      width: 100%;
+      max-height: 100px;
+     object-fit: cover;
+      }
+  /* Seccion de fiesta*/
+  .Ven_celebrar{
+    display: flex;
+    color: white;
+    max-width: 73.2%;
+    max-height: 500px;
+    background: linear-gradient(to right, #000000, grey );
+  }
+  .Ven_celebrar figure img{
+    display: none;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .Img_fiesta{
+    display: none;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+  .Cumpleanos{
+    height: 500px;
+    text-align: center;
+    margin-right: 0;
+    margin-top: 0px;
+  }
+  .Cumpleanos h1{
+    color: #F2DA91;
+    line-height: 1;
+    font-size: 40px;
+  }
+  .Cumpleanos img{
+    max-width: 180px;
+  }
+  .pastelito{
+    font-size: 200px;
+    color: #def205;
+  }
+  .Lestras_22{
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    line-height: 0;
+    padding-bottom: 50px;
+  }
+  .titulo1{
+    padding-left: 0px;
+    height: 200px;
+  }
+  .titulo1 h1{
+    margin-left: 10px;
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 1;
+  }
+  .espacio{
+    margin-top: -20px;
+  }
+  .degradado {
+    width: 73.2%;
+    height: 100%;
+    background: linear-gradient(to right, #000000,  #F2DA91);
+  }
+  .Tarjetas{
+    display: none;
+  }
+  .Tarjetas2{
+    display: inline-block;
+    object-fit: cover;
+  }
+  .Tarjetas2 img {
+    margin-left: 40px;
+    width: 80%; /* Adjust the width to 100% to make it responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 500px; /* Set a maximum width if needed */
+    object-fit: cover;
+    margin-top: 20px;
+  }
+
+
+  .desaparecer{
+    display: none;
+  }
+
+  .hora{
+    position: relative;
+    left: 100px;
+    border-radius: 10%;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgb(87, 83, 83);
+    margin-left: 0%;
+    padding-top: 20px;
+    width: 40%;
+    height: 100px;
+   }
+   .titulo2{
+    text-align: center;
+    margin-top: -5%;
+    color: #F2DA91;
+    line-height: 1.5;
+    font-size: 25px;
+  }
+  .titulo2 h1{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .titulo2 iframe{
+    border-radius: 2%;
+    max-width: 80%;
+    max-height: 20%;
+    margin-left: 3%;
+  }
+  .Confirmar{
+    text-decoration: none;
+    color: white;
+    background-color: #626a10;
+    border-radius: 10%;
+    margin-left: 0px;
+  }
+
+
+}
