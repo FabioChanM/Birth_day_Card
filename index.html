@@ -5,33 +5,28 @@
   <link rel="stylesheet" href="Styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script
-    src="https://kit.fontawesome.com/2ee0245f3d.js"
-    crossorigin="anonymous"
-  ></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <link rel="stylesheet" href="animate.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="animate.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@1000&display=swap" rel="stylesheet"/>
-    <script src="js/wow.min.js"></script>
     <title>Patricia Chan</title>
     <link rel="icon" class="favicon"/>
 </head>
 <body>
-  <div class="imagen_principal">
-    <h1 class="Name ancho">Patricia</h1>
-    <h1 class="Name ancho">Chan</h1>
+  <div class="imagen_principal ">
+    <h1 class="Name ancho wow animate__animated animate__backInDown">Patricia</h1>
+    <h1 class="Name ancho wow animate__animated animate__backInDown">Chan</h1>
   </div>
 
   <section class="Ven_celebrar">
-    <figure class="Img_fiesta animate__fadeInDow">
+    <figure class="Img_fiesta">
       <img class="Img_responsive" src="Img/Fiesta.jpg" alt="">
     </figure>
 
-    <section class="Cumpleanos">
+    <section class="wow animate__animated animate__slideInUp Cumpleanos">
       <h1>Ven a festejar</h1>
       <br><br><br>
     <img src="Img/Imagen pastel.png" alt="">
@@ -44,16 +39,16 @@
 
     <section class="Lestras_22 degradado">
       <br class="desaparecer"><br class="desaparecer">
-      <div class="titulo1">
+      <div class="wow animate__animated animate__fadeInDown titulo1">
         <h1>¡Acompañame el Miercoles</h1>
         <h1 class="espacio">22 de Noviembre de 2023!</h1>
       </div>
 
       <div class="Tarjetas">
-        <figure class="Tarjetas_tarot">
+        <figure class="wow animate__animated animate__slideInLeft Tarjetas_tarot">
           <img src="Img/Imagenes_tarot.jpg" alt="">
         </figure>
-        <figure class="Tarjetas_tarot">
+        <figure class="Tarjetas_tarot wow animate__animated animate__slideInRight">
           <img src="Img/Imagen_tarot2.jpg" alt="">
         </figure>
       </div>
@@ -65,7 +60,7 @@
       
       <br class="desaparecer"><br class="desaparecer">
       <div class="titulo2">
-        <div class="hora">
+        <div class=" wow animate__animated animate__fadeIn hora">
           <h2>2 PM</h2>
         </div>
         <br>
@@ -74,16 +69,17 @@
       </div>
       
         <br><br>
-    <section class="titulo2 Lestras_22">
+    <section class=" wow animate__animated animate__bounceInDown titulo2 Lestras_22">
       <h1>Confirma tu asistencia</h1>
       <br>
-      <a  class="Confirmar" href="https://wa.me/+529999012218?text=Hola%20confirmo%20mi%20asistencia">Confirmar asistencia</a>
+      <a  class=" wow animate__animated  animate__flash Confirmar" href="https://wa.me/+529999012218?text=Hola%20confirmo%20mi%20asistencia">Toca aqui para confirmar asistencia</a>
     </section>
     <br><br>
     </section>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
-<script>
-  new WOW().init();
-</script>
 
 </html>

@@ -178,10 +178,11 @@ body{
   }
   .Img_fiesta{
     display: none;
-    margin-left: 300px;
     margin-top: 100px;
   }
   .Cumpleanos{
+    margin-left: 12%;
+    align-items: center;
     height: 500px;
     text-align: center;
     margin-right: 0;
@@ -207,13 +208,13 @@ body{
     padding-bottom: 50px;
   }
   .titulo1{
-    padding-left: 0px;
+    padding-left: 5%;
     height: 200px;
   }
   .titulo1 h1{
     margin-left: 10px;
     padding-top: 50px;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1;
   }
   .espacio{
@@ -247,9 +248,8 @@ body{
 
   .hora{
     position: relative;
-    left: 100px;
+    left: 30%;
     border-radius: 10%;
-    margin-left: 300px;
     margin-top: 50px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -274,7 +274,6 @@ body{
     border-radius: 2%;
     max-width: 80%;
     max-height: 20%;
-    margin-left: 3%;
   }
   .Confirmar{
     text-decoration: none;
